@@ -1,0 +1,38 @@
+<ng-template #content let-modal>
+    <div class="modal-header">
+        <h4 class="modal-title" id="modal-basic-title">Employee form</h4>
+        <button type="button" class="btn-close" aria-label="Close" (click)="modal.dismiss('Cross click')"></button>
+    </div>
+    <div class="modal-body">
+        <form [formGroup]="Form" >
+            <div class="mb-3">
+                <label>Code</label>
+                <div class="input-group">
+                    <input name="code" class="form-control" formControlName="code" readonly>
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label>Code</label>
+                <div class="input-group">
+                    <input name="code" class="form-control" formControlName="code" readonly>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label>Code</label>
+                <div class="input-group">
+                    <input name="code" class="form-control" formControlName="code" readonly>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label>Code</label>
+                <div class="input-group">
+                    <input name="code" class="form-control" formControlName="code" readonly>
+                </div>
+            </div>
+        </form>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-outline-dark" (click)="modal.close('Close click')">Close</button>
+          </div>
+    </div>
+</ng-template>

@@ -1,0 +1,62 @@
+<div class="row column container-fluid">
+    <div class="col-6 width">
+        <a class="btn btn-dark export"><i class="fas fa-plus"></i></a> 
+        <a class="btn btn-dark export"><i class="fas fa-plus"></i></a> 
+        <a class="btn btn-dark export"><i class="fas fa-plus"></i></a>  
+    </div>
+    <div class="col-6 width">
+        <form class="d-flex my-2 my-lg-0 searching">
+            <input class="form-control me-sm-2" type="text" placeholder="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </div>
+</div>
+
+<div class="container get-data">
+    <a class="btn btn-dark export" routerLink="/list"><i class="fas fa-plus"></i>GET DATA</a> 
+    <a class="btn btn-dark export" routerLink="/add"><i class="fas fa-plus"></i>CREATE</a> 
+</div>
+
+<div class="scroller">
+    <table mdbTable mdbTableScroll scrollx="true" maxWidth="400" class="table table-sm table-striped table-hover">
+        <thead>
+            <tr>
+                <!-- <th *ngFor="let head of headElements" scope="col">{{head}} </th> -->
+                <th>Email</th>
+                <th>Email</th>
+                <th>Email</th>
+                <th>Email</th>
+                <th>Email</th>
+                <th>Email</th>
+                <th>Email</th>
+                <th>Email</th>
+                <th>Email</th>
+                <th>Email</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Email</td>
+                <td>Email</td>
+                <td>Email</td>
+                <td>Email</td>
+                <td>Email</td>
+                <td>Email</td>
+                <td>Email</td>
+                <td>Email</td>
+                <td>Email</td>
+                <td>Email</td>
+                <td>
+                    <a type="button" class="btn btn-outline-success" routerLink="/edit">
+                        <i class="bi bi-pencil-square bi-lg"></i>
+                    </a>
+                    <a type="button" class="put btn btn-outline-danger" >
+                        <i class="bi bi-trash3 bi-lg"></i>
+                    </a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<app-delete></app-delete>
