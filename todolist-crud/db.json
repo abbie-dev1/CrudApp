@@ -1,0 +1,28 @@
+{
+    "signupUsersList": [
+        {
+            "id": 1,
+            "name": "Abbie",
+            "email": "abbie@gmail.com",
+            "message": "1234@abbie"
+        },
+        {
+            "id": 2,
+            "name": "Nkateko",
+            "email": "abbie@gmail.com",
+            "message": "1234@abbie"
+        },
+        {
+            "id": 3,
+            "name": "Abbie",
+            "email": "abbie@gmail.com",
+            "message": "1234@abbie"
+        },
+        {
+            "id": 4,
+            "name": "Abbie",
+            "email": "abbie@gmail.com",
+            "message": "1234@abbie"
+        }
+    ]
+}

@@ -5,7 +5,7 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class TololistcrudService {
-  baseUrl = "http://locahost/8080";
+  baseUrl = "http://locahost/3000";
   
   constructor(private http: HttpClient) { }
 
